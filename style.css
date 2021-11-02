@@ -1,11 +1,13 @@
-body{
+ /* section 1*/
+ body{ 
     font-family: 'Poppins', sans-serif;
     margin: 0px;
 }
 #header{
     display: flex; 
     background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;   
+    background-repeat: no-repeat; 
+    margin-bottom:10%;  
 }
 .header-part{
     
@@ -27,4 +29,20 @@ h1{
 }
 .header-part img{
 width: 100%;
+}
+
+/* section 2 */
+#dream-area{
+    display: flex;
+    background-image: url(images/dream-bg.png
+    );
+    background-repeat: no-repeat;
+    background-position:right;
+}
+.dream-area-part{
+    width: 50%;
+    padding-right: 5%;
+}
+.dream-area-part img{
+     width: 100%;
 }
