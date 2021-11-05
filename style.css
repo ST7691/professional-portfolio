@@ -49,6 +49,36 @@ width: 100%;
 
 /* section 3 */
 
+#experince-area{
+    background-image: url(images/site-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 5%;
+}
+
+.experince-area-part{
+    display: flex;
+}
+.experince-area-part h3{
+    color:green;
+}
+.experince-area-part div{
+    box-shadow: 5px 7px 40px greenyellow;
+    height: 80%;
+    margin: 15px;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,red,tomato);
+    border-image-slice: 1;
+    padding:10px;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,green,greenyellow);
+    border-image-slice: 1;
+    padding:10px;
+}
 footer{
-    text-align:center;
+    text-align: center;
 }
